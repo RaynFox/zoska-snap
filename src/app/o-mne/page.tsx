@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleBottomNavigation from '../../components/SimpleBottomNavigation'; // Adjust the path as needed
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
 const AboutMe = () => {
   return (
