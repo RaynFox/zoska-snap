@@ -1,7 +1,15 @@
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import SimpleBottomNavigation from '../components/SimpleBottomNavigation'; // Adjust the path as needed
+import { HomeMaxOutlined } from '@mui/icons-material';
 
-export default function Home() {
+const Home = () => {
   return (
-    <Typography> Domovská stránka Test </Typography>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default Home;
