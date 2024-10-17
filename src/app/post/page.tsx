@@ -1,7 +1,7 @@
 import Typography from "@mui/material/Typography";
 
-export default function Profile() {
+export default function Post() {
   return (
-    <Typography> Profil </Typography>
+    <Typography> Post </Typography>
   );
 }
