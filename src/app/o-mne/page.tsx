@@ -1,7 +1,14 @@
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import SimpleBottomNavigation from '../../components/SimpleBottomNavigation'; // Adjust the path as needed
 
-export default function AboutMe() {
+const AboutMe = () => {
   return (
-    <Typography> Stránka o mne </Typography>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default AboutMe;
