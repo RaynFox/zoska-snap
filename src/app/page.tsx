@@ -2,6 +2,6 @@ import Typography from "@mui/material/Typography";
 
 export default function Home() {
   return (
-    <Typography> Domovská stránka. </Typography>
+    <Typography> Domovská stránka Test </Typography>
   );
 }
