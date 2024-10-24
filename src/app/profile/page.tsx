@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 
-export const metadata = { title: "Profile" };
+export const metadata = { title: "Profil" };
 
 export default function Home() {
 
